@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://artinmall.github.io/Ashe/",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "moment": "^2.22.2",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
