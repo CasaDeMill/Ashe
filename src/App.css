@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+ 
+}
+
+body{
+  background-color: black;
 }
 
 .App-logo {
@@ -29,4 +34,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Video {
+  padding-top: 5rem;
+}
+
+
+.Countdown{
+  margin: 10px auto;
+  padding-bottom: 20px;
+  color: white;
+}
+
+.Countdown-col{
+  display: inline-block;
+}
+
+.Countdown-col-element{
+  display: inline-block;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Countdown-col-element strong{
+  font-size: 50px;
 }
