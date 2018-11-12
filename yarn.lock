@@ -6833,10 +6833,6 @@ react-error-overlay@^5.1.0:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-5.1.0.tgz#c516995a5652e7bfbed8b497910d5280df74a7e8"
 
-react-moment-countdown@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/react-moment-countdown/-/react-moment-countdown-0.3.0.tgz#155b924f93f6588ef0702bcb49cf2004750f2bc3"
-
 react-moment@^0.8.3:
   version "0.8.3"
   resolved "https://registry.yarnpkg.com/react-moment/-/react-moment-0.8.3.tgz#68b5add7145c736b8a737d55c4ed31fbcbcfe1eb"
