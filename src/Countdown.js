@@ -13,6 +13,7 @@ class Countdown extends Component {
     super(props);
 
     this.state = {
+      years: 0,
       days: 0,
       hours: 0,
       min: 0,
@@ -85,6 +86,14 @@ class Countdown extends Component {
 
     return (
       <div className="Countdown">
+
+        <span className="Countdown-col">
+          <span className="Countdown-col-element">
+              <strong>{this.addLeadingZeros(countDown.years)}</strong>
+              <span>{countDown.years === 1 ? 'Year' : 'Years'}</span>
+          </span>
+        </span>
+
         <span className="Countdown-col">
           <span className="Countdown-col-element">
               <strong>{this.addLeadingZeros(countDown.days)}</strong>
