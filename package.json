@@ -2,7 +2,7 @@
   "name": "trailerweb",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://artinmall.github.io/Ashe/",
+  "homepage": "https://ashe.martinlindgren.com",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "moment": "^2.22.2",
