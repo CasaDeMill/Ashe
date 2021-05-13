@@ -18,6 +18,7 @@ class Countdown extends Component {
       hours: 0,
       min: 0,
       sec: 0,
+      isEven: false
     }
   }
 
@@ -26,6 +27,7 @@ class Countdown extends Component {
     this.interval = setInterval(() => {
       const date = this.calculateCountdown(this.props.date);
       date ? this.setState(date) : this.stop();
+      this.setState({isEven: date.sec % 2 === 0});
     }, 1000);
   }
 
@@ -85,7 +87,7 @@ class Countdown extends Component {
     const countDown = this.state;
 
     return (
-      <div className="Countdown">
+      <div className={ !countDown.isEven ? "Countdown" : "CountdownRed" }>
 
         <span className="Countdown-col">
           <span className="Countdown-col-element">
