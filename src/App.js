@@ -13,7 +13,6 @@ class App extends Component {
     return (
       <div className="App">
         <audio ref="audio_tag" src={ heartbeat } autoPlay loop/>
-        <h1>One more month...</h1>
         <h1>13th of June 2021 - 23:00</h1>
         <Countdown date={`2021-06-13T23:00:00`} />
         <div className="Video">
